@@ -1,0 +1,19 @@
+DIRECTX.H INSTALL
+
+first remove origanal
+
+su
+password
+rm /directx/include/directx.h
+
+then after making new in atom saved in home
+
+mv directx.h /directx/include
+
+make exe
+
+chmod +x /directx/include/directx.h
+
+now install . Open /directx/utils with terminal (right click utils folder)
+
+./fixdirectx.sh
